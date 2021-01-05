@@ -57,10 +57,10 @@ h2 {
 }
 
 .line {
-    height: 6px;
-    width: 70px;
-    background-color: black;
-    margin: 8px auto;
+height: 6px;
+width: 70px;
+background-color: black;
+margin: 8px auto;
 }
 
 p {
@@ -93,5 +93,16 @@ p {
 }
 
 .links:hover {
-    background-color: teal;
+    background-color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+.art:hover{
+    color: blueviolet;
 }
